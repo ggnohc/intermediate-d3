@@ -80,6 +80,7 @@
 		   .attr("x", function(d, i) {
 		   		//x scale is ordinal, so using the index value for each element
 		   		//here simply moves subsequent bars farther to the right
+				console.log(d + "," + i)
 		   		return xScale(i);
 		   })
 		   .attr("y", function(d) {
